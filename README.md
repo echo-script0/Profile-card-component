@@ -15,7 +15,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ![Preview](image.png)
 
 ### Live Site Url
-
+https://echo-script0.github.io/Profile-card-component/
 
 
 ### Built with
