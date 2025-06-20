@@ -1,0 +1,97 @@
+body {background-color: hsl(185, 75%, 39%);
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      height: 100vh; /* Full viewport height */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      overflow: hidden;
+      background-image:url('bg-pattern-top.svg'), url('bg-pattern-bottom.svg') ;
+      background-position:top -500px left -400px, bottom -680px right -200px ;
+      background-repeat: no-repeat, no-repeat;
+      font-family:'Kumbh Sans', sans-serif;}
+
+.container {background-color: white;
+            width: 400px;
+            border-radius: 10px;
+            height: 440px;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;}
+
+.container .image-container {display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            position: relative;
+                            margin-top: -50px;}
+
+.image-container img {border-radius: 50px;
+                      border: 5px solid white;}
+
+.container .victor-crest {display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          margin-top: 20px;
+                          gap: 10px;}
+
+.victor-crest .name {color: hsl(229, 23%, 23%);
+                     font-size: 19px;
+                     font-weight: 700;}
+
+.victor-crest .age {color:hsl(227, 10%, 46%) ;
+                    font-size: 19px;
+                    font-weight: 400;}
+
+.container .location {display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      margin-top: 6px;
+                      color:hsl(227, 10%, 46%) ;
+                      font-weight: 400;
+                      font-size: 15px;}
+
+.container .line {width: 100%;
+                  height: 1px;
+                  background-color:hsl(0, 0%, 59%) ;
+                  margin-top: 35px;}
+
+.container .last-part {display: flex;
+                       flex-direction: row;
+                       gap: 20px;
+                       margin-top: 30px;
+                       padding-top: 20px;
+                       padding: 0 20px;
+                       display: flex;
+                       align-items: center;
+                       justify-content: space-evenly;}
+
+.container .number {color: hsl(229, 23%, 23%);
+                    font-weight: 700;
+                    font-size: 20px;}
+
+.container .followers {color:  hsl(227, 10%, 46%);
+                       font-size: 13px;
+                      margin-left: -10px;
+                      letter-spacing: 1px;}
+
+.container .amount-likes {color: hsl(229, 23%, 23%);
+                           font-weight: 700;
+                           font-size: 20px;}
+
+.container .likes {color:  hsl(227, 10%, 46%);
+                       font-size: 13px;
+                       margin-left: 6px;
+                       letter-spacing: 1px;}
+
+.container .amount-photos {color: hsl(229, 23%, 23%);
+                           font-weight: 700;
+                           font-size: 20px;}
+
+.container .photos {color:  hsl(227, 10%, 46%);
+                       font-size: 13px;
+                      letter-spacing: 1px;
+                      margin-left: -2px;}
+
+
+     
